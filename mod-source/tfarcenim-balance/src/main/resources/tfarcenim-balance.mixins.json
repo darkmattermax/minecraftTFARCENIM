@@ -1,0 +1,22 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.tfarcenim.balance.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "ToolMaterialMixin",
+        "ArmorMaterialMixin",
+        "BowItemMixin",
+        "CrossbowItemMixin",
+        "ShieldItemMixin",
+        "FishingRodItemMixin",
+        "ShearsItemMixin",
+        "TurtleShellMixin",
+        "GoldenAppleMixin",
+        "AttributeModifierMixin"
+    ],
+    "client": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

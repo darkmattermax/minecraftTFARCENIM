@@ -1,0 +1,53 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.tfarcenim.core.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "enchantment.ProtectionEnchantmentMixin",
+        "enchantment.SharpnessEnchantmentMixin",
+        "enchantment.SmiteEnchantmentMixin",
+        "enchantment.BaneOfArthropodsEnchantmentMixin",
+        "enchantment.KnockbackEnchantmentMixin",
+        "enchantment.FireAspectEnchantmentMixin",
+        "enchantment.LootingEnchantmentMixin",
+        "enchantment.EfficiencyEnchantmentMixin",
+        "enchantment.UnbreakingEnchantmentMixin",
+        "enchantment.FortuneEnchantmentMixin",
+        "enchantment.MendingEnchantmentMixin",
+        "enchantment.ThornsEnchantmentMixin",
+        "enchantment.LoyaltyEnchantmentMixin",
+        "enchantment.CurseEnchantmentsMixin",
+        "enchantment.FishingEnchantmentsMixin",
+        "enchantment.FishingEnchantmentsMixin$LureEnchantmentMixin",
+        "enchantment.RangedEnchantmentsMixin",
+        "enchantment.RangedEnchantmentsMixin$PunchMixin",
+        "enchantment.RangedEnchantmentsMixin$FlameMixin",
+        "enchantment.RangedEnchantmentsMixin$InfinityMixin",
+        "enchantment.RangedEnchantmentsMixin$ImpalingMixin",
+        "enchantment.TridentEnchantmentsMixin",
+        "enchantment.TridentEnchantmentsMixin$ChannelingMixin",
+        "enchantment.CrossbowEnchantmentsMixin",
+        "enchantment.CrossbowEnchantmentsMixin$PiercingMixin",
+        "enchantment.CrossbowEnchantmentsMixin$QuickChargeMixin",
+        "enchantment.BootEnchantmentsMixin",
+        "enchantment.BootEnchantmentsMixin$SwiftSneakMixin",
+        "enchantment.WaterEnchantmentsMixin",
+        "enchantment.WaterEnchantmentsMixin$AquaAffinityMixin",
+        "enchantment.WaterEnchantmentsMixin$DepthStriderMixin",
+        "enchantment.WaterEnchantmentsMixin$FrostWalkerMixin",
+        "entity.LivingEntityMixin",
+        "entity.PlayerEntityMixin",
+        "entity.MobEntityMixin",
+        "item.EnchantedBookItemMixin",
+        "barter.PiglinBarterMixin",
+        "effect.InstantHealthEffectMixin",
+        "world.StarterChestMixin"
+    ],
+    "client": [
+        "screen.EnchantmentScreenMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

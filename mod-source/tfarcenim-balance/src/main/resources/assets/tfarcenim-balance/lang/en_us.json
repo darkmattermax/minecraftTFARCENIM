@@ -1,0 +1,12 @@
+{
+    "itemGroup.tfarcenim-balance": "TFARCENIM Balance",
+    "tfarcenim.balance.name": "TFARCENIM Balance",
+    "tfarcenim.balance.description": "Tool, armor, weapon and food balance overrides.",
+    "tfarcenim.balance.star_power": "Star Power",
+    "tfarcenim.balance.star_power.tooltip": "Star Power: +25%% damage, +19%% attack speed, +18%% durability on netherite gear.",
+    "tfarcenim.balance.enabled": "Balance Overrides: Enabled",
+    "tfarcenim.balance.disabled": "Balance Overrides: Disabled",
+    "tfarcenim.balance.config.title": "TFARCENIM Balance Configuration",
+    "tfarcenim.balance.note.durability": "Durability adjusted to match reinforced crafting recipes.",
+    "tfarcenim.balance.note.ega": "Enchanted Golden Apple: nutrition 8, saturation 16."
+}

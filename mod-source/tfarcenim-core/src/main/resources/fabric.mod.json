@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "id": "tfarcenim-core",
+    "version": "${version}",
+    "name": "TFARCENIM Core",
+    "description": "Core mechanics: enchantment reversal, undead no-burn, star power, reward chest, REI integration",
+    "authors": [
+        "TFARCENIM Team"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.tfarcenim.core.TfarcenimCore"
+        ],
+        "client": [
+            "com.tfarcenim.core.TfarcenimCoreClient"
+        ]
+    },
+    "mixins": [
+        "tfarcenim-core.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.17.2",
+        "minecraft": "~1.21.10",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}

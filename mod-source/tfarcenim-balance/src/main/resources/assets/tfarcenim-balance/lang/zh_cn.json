@@ -1,0 +1,12 @@
+{
+    "itemGroup.tfarcenim-balance": "TFARCENIM 数值平衡",
+    "tfarcenim.balance.name": "TFARCENIM 数值平衡",
+    "tfarcenim.balance.description": "工具、防具、武器与食物的数值平衡覆盖。",
+    "tfarcenim.balance.star_power": "星辰之力",
+    "tfarcenim.balance.star_power.tooltip": "星辰之力：下界合金装备伤害 +25%%、攻速 +19%%、耐久 +18%%。",
+    "tfarcenim.balance.enabled": "数值覆盖：已启用",
+    "tfarcenim.balance.disabled": "数值覆盖：已禁用",
+    "tfarcenim.balance.config.title": "TFARCENIM 数值平衡配置",
+    "tfarcenim.balance.note.durability": "耐久度已根据强化合成配方调整。",
+    "tfarcenim.balance.note.ega": "附魔金苹果：饥饿值 8，饱和度 16。"
+}

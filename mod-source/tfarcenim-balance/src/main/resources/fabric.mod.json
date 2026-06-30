@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "tfarcenim-balance",
+    "version": "${version}",
+    "name": "TFARCENIM Balance",
+    "description": "Balance module: tool/armor durability, weapon speed, shield cooldown, golden apple values",
+    "authors": [
+        "TFARCENIM Team"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/tfarcenim-balance/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.tfarcenim.balance.TfarcenimBalance"
+        ]
+    },
+    "mixins": [
+        "tfarcenim-balance.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.17.2",
+        "minecraft": "~1.21.10",
+        "java": ">=21",
+        "fabric-api": "*",
+        "tfarcenim-core": ">="
+    }
+}
